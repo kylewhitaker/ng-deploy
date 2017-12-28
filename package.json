@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
+    "clean": "rm -rf ../../../../usr/local/lib/node_modules/angular-cli-ghpages/node_modules/gh-pages/.cache",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
